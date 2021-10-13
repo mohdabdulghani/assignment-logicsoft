@@ -125,7 +125,7 @@ function App() {
               publisher={item.volumeInfo.publisher}
               description={item.volumeInfo.description}
               previewLink={item.volumeInfo.previewLink}
-              infoLink={item.volumeInfo.infoLink}
+              // infoLink={item.volumeInfo.infoLink}
             />
           </div>
         );
