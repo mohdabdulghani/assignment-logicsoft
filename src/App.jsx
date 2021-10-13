@@ -115,7 +115,7 @@ function App() {
         }
 
         return (
-          <div className='col-lg-4 mb-3' key={item.id}>
+          <div className='col-lg-4 mb-2' key={item.id}>
             <BookCard
               thumbnail={thumbnail}
               title={item.volumeInfo.title}
